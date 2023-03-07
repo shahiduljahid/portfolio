@@ -137,7 +137,7 @@ function Projects() {
                     <div className="project-image">
                       <a target="_blank" href={external}>
                         <img
-                          src={cover}
+                          src='/thumbnail.png'
                           height="auto"
                           width="auto"
                           alt={title}
