@@ -1161,7 +1161,7 @@ a.inline-link:active::after {
     opacity: 0.25;
   }
   .project .project-image .img {
-    object-fit: cover;
+    /* object-fit: cover; */
     width: auto;
     min-height: 100%;
     filter: grayscale(100%) contrast(1) brightness(50%);
