@@ -1084,6 +1084,12 @@ a.inline-link:active::after {
   .project .project-content {
     padding: 30px 25px 20px;
   }
+  .project .project-image .img {
+    object-fit: cover;
+    width: auto;
+    height: 100%;
+    filter: grayscale(100%) contrast(1) brightness(50%);
+  }
 }
 
 @media (max-width: 768px) {
