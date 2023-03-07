@@ -88,9 +88,7 @@ function Projects() {
                         <p className="project-overline">Featured Project</p>
 
                         <h3 className="project-title">
-                          <a target="_blank" href={external}>
-                            {title}
-                          </a>
+                          <a target="_blank" href={external}>{title}</a>
                         </h3>
 
                         <div className="project-description">{description}</div>
@@ -105,8 +103,7 @@ function Projects() {
 
                         <div className="project-links">
                           {githubFront && (
-                            <a
-                              target="_blank"
+                            <a target="_blank"
                               href={githubFront}
                               aria-label="GitHub Frontend Link"
                             >
@@ -115,8 +112,7 @@ function Projects() {
                             </a>
                           )}
                           {githubBack && (
-                            <a
-                              target="_blank"
+                            <a target="_blank"
                               href={githubBack}
                               aria-label="GitHub Backend Link"
                             >
@@ -125,8 +121,7 @@ function Projects() {
                             </a>
                           )}
                           {external && (
-                            <a
-                              target="_blank"
+                            <a target="_blank"
                               href={external}
                               aria-label="External Link"
                               className="external"
@@ -142,8 +137,8 @@ function Projects() {
                     <div className="project-image">
                       <a target="_blank" href={external}>
                         <Image
-                          style={{ height: "100%" }}
                           src={cover}
+                          height="auto"
                           width="auto"
                           alt={title}
                           className="img"
