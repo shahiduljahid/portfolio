@@ -136,7 +136,7 @@ function Projects() {
 
                     <div className="project-image">
                       <a target="_blank" href={external}>
-                        <Image
+                        <img
                           src={cover}
                           height="auto"
                           width="auto"
